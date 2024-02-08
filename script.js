@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-      resposta: [
-        "let myVar = 5;",
-        "variable myVar = 5;",
-        "myVar = 5;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o resultado de 10 + '5' em JavaScript?",
-      resposta: [
-        "15",
-        "105",
-        "Erro",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'querySelector'?",
-      resposta: [
-        "Selecionar múltiplos elementos",
-        "Selecionar o primeiro elemento que corresponde a um seletor CSS",
-        "Selecionar elementos pelo nome da classe",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'appendChild' faz em JavaScript?",
-      resposta: [
-        "Remove um nó filho",
-        "Adiciona um nó filho ao final de um elemento",
-        "Adiciona um nó filho ao início de um elemento",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
-      resposta: [
-        "==",
-        "===",
-        "!=",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '3' + 2 em JavaScript?",
-      resposta: [
-        "5",
-        "32",
-        "Erro",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'addEventListener'?",
-      resposta: [
-        "Adiciona uma classe a um elemento",
-        "Adiciona um evento a um elemento",
-        "Remove um evento de um elemento",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a palavra-chave usada para definir uma função em JavaScript?",
-      resposta: [
-        "define",
-        "function",
-        "função",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '10' == 10 em JavaScript?",
-      resposta: [
-        "true",
-        "false",
-        "Erro",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o método 'querySelectorAll' faz em JavaScript?",
-      resposta: [
-        "Seleciona um elemento pelo ID",
-        "Seleciona múltiplos elementos",
-        "Seleciona o primeiro elemento que corresponde a um seletor CSS",
-      ],
-      correta: 1
-    },
-  ];
+  {
+    pergunta: "Qual é o objetivo principal do Power BI?",
+    resposta: [
+      "Desenvolvimento de aplicativos móveis",
+      "Análise de dados e criação de visualizações interativas",
+      "Programação de software",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é o 'Power Query' no Power BI?",
+    resposta: [
+      "Uma linguagem de programação",
+      "Uma ferramenta para importar, transformar e combinar dados de diversas fontes",
+      "Um componente para criar gráficos",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a função do 'Power Pivot' no Power BI?",
+    resposta: [
+      "Importar dados externos",
+      "Criar relatórios visuais",
+      "Realizar análises avançadas e criar modelos de dados",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que são os 'Dashboards' no Power BI?",
+    resposta: [
+      "Relatórios detalhados",
+      "Painéis interativos que mostram visualizações importantes",
+      "Ferramentas de administração",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual linguagem é usada para escrever fórmulas no Power BI?",
+    resposta: [
+      "DAX (Data Analysis Expressions)",
+      "SQL (Structured Query Language)",
+      "JavaScript",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que é o 'Power BI Service'?",
+    resposta: [
+      "Uma função específica no Power BI",
+      "Uma versão gratuita do Power BI",
+      "Uma plataforma online para publicar, compartilhar e colaborar em relatórios",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é o 'Power BI Desktop'?",
+    resposta: [
+      "Uma versão exclusiva para Mac",
+      "Uma ferramenta para criar relatórios e dashboards localmente",
+      "Um componente opcional do Power BI",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o formato de arquivo padrão para os relatórios do Power BI?",
+    resposta: [
+      ".pptx",
+      ".pbix",
+      ".xlsx",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que significa 'ETL' no contexto do Power BI?",
+    resposta: [
+      "Extração, Transformação e Linguagem",
+      "Excel, Tableau, Linguagem",
+      "Extração, Transformação e Carregamento",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual visualização é comumente usada para representar dados geográficos no Power BI?",
+    resposta: [
+      "Gráfico de barras",
+      "Mapa",
+      "Rosca de pizza",
+    ],
+    correta: 1
+  },
+];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
