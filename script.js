@@ -47,11 +47,11 @@ const perguntas = [
   {
     pergunta: "O que é um Tratamento Ambulatorial em relação a uma enfermaria?",
     resposta: [
-      "Um tratamento realizado fora do hospital",
       "Um tratamento intensivo",
+      "Um tratamento realizado fora do hospital",
       "Um tratamento exclusivo para crianças",
     ],
-    correta: 0
+    correta: 1
   },
   {
     pergunta: "Qual é a função principal de um Técnico de Enfermagem em uma enfermaria?",
