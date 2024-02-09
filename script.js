@@ -1,95 +1,96 @@
 const perguntas = [
   {
-    pergunta: "Qual artista internacional é conhecido como 'The King of Gospel'?",
+    pergunta: "Qual é o principal objetivo de uma enfermaria?",
     resposta: [
-      "Kirk Franklin",
-      "CeCe Winans",
-      "Mahalia Jackson",
+      "Realizar cirurgias",
+      "Fornecer cuidados pós-operatórios",
+      "Fornecer assistência e cuidados a pacientes hospitalizados",
     ],
     correta: 2
   },
   {
-    pergunta: "Qual música de Whitney Houston é considerada uma poderosa canção gospel?",
+    pergunta: "O que é um "enfermeiro-chefe" em uma enfermaria?",
     resposta: [
-      "'I Will Always Love You'",
-      "'Greatest Love of All'",
-      "'My Love Is Your Love'",
+      "Um enfermeiro especializado em cirurgias",
+      "O enfermeiro responsável pela gestão e supervisão da equipe de enfermagem",
+      "Um enfermeiro que cuida especificamente de crianças",
     ],
     correta: 1
   },
   {
-    pergunta: "Quem é conhecido por hits como 'Stomp' e 'Revolution'?",
+    pergunta: "O que é um "prontuário médico" em uma enfermaria?",
     resposta: [
-      "Fred Hammond",
-      "Donnie McClurkin",
-      "Kirk Franklin",
+      "Um registro das condições climáticas no hospital",
+      "Um documento que contém informações médicas e de tratamento de um paciente",
+      "Uma lista de medicamentos disponíveis na enfermaria",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem é responsável por administrar medicamentos aos pacientes em uma enfermaria?",
+    resposta: [
+      "Médico",
+      "Enfermeiro",
+      "Assistente social",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é a "visita médica" em uma enfermaria?",
+    resposta: [
+      "Uma inspeção do hospital",
+      "Uma reunião de enfermeiros",
+      "Uma avaliação médica regular dos pacientes",
     ],
     correta: 2
   },
   {
-    pergunta: "Qual grupo gospel internacional é famoso pela música 'Oceans (Where Feet May Fail)'?",
+    pergunta: "O que é um "tratamento ambulatorial" em relação a uma enfermaria?",
     resposta: [
-      "Hillsong United",
-      "Casting Crowns",
-      "Chris Tomlin",
+      "Um tratamento realizado fora do hospital",
+      "Um tratamento intensivo",
+      "Um tratamento exclusivo para crianças",
     ],
     correta: 0
   },
   {
-    pergunta: "Qual artista lançou o álbum 'Hiding Place' em 2018, vencedor do Grammy de Melhor Álbum Gospel?",
+    pergunta: "Qual é a função principal de um "técnico de enfermagem" em uma enfermaria?",
     resposta: [
-      "Tasha Cobbs Leonard",
-      "Lauren Daigle",
-      "Tamela Mann",
+      "Diagnosticar doenças",
+      "Realizar procedimentos cirúrgicos",
+      "Auxiliar enfermeiros no cuidado direto aos pacientes",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é a "triagem" em uma enfermaria?",
+    resposta: [
+      "A seleção de pacientes para cirurgias",
+      "A avaliação inicial da gravidade dos casos",
+      "Uma técnica de relaxamento para pacientes",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual cantor gospel internacional é conhecido por canções como 'I Smile' e 'Melodies From Heaven'?",
+    pergunta: "Qual é a importância da "higienização das mãos" em uma enfermaria?",
     resposta: [
-      "Kirk Franklin",
-      "Don Moen",
-      "Fred Hammond",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual grupo gospel internacional é famoso por músicas como 'Shackles (Praise You)' e 'Yesterday'?",
-    resposta: [
-      "The Clark Sisters",
-      "Mary Mary",
-      "Destiny's Child",
+      "Apenas um procedimento rotineiro",
+      "Essencial para prevenir a propagação de infecções",
+      "Apenas necessário em cirurgias",
     ],
     correta: 1
   },
   {
-    pergunta: "Quem é conhecido por músicas como 'How Great is Our God' e 'Amazing Grace (My Chains Are Gone)'?",
+    pergunta: "O que é a "alta hospitalar" em uma enfermaria?",
     resposta: [
-      "Chris Tomlin",
-      "Hillsong Worship",
-      "Matt Redman",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual artista gospel internacional é famoso por músicas como 'Break Every Chain' e 'Your Spirit'?",
-    resposta: [
-      "Tasha Cobbs Leonard",
-      "William McDowell",
-      "Israel Houghton",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual cantora gospel lançou álbuns como 'Alabaster Box' e 'A Piece of My Passion'?",
-    resposta: [
-      "CeCe Winans",
-      "Yolanda Adams",
-      "Kim Burrell",
+      "Um procedimento cirúrgico",
+      "A transferência de um paciente para outra enfermaria",
+      "A liberação de um paciente após o tratamento",
     ],
     correta: 2
   },
 ];
+
 
 
   
