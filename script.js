@@ -1,95 +1,96 @@
 const perguntas = [
   {
-    pergunta: "Qual é o objetivo principal do Power BI?",
+    pergunta: "Qual artista internacional é conhecido como 'The King of Gospel'?",
     resposta: [
-      "Desenvolvimento de aplicativos móveis",
-      "Análise de dados e criação de visualizações interativas",
-      "Programação de software",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que é o 'Power Query' no Power BI?",
-    resposta: [
-      "Uma linguagem de programação",
-      "Uma ferramenta para importar, transformar e combinar dados de diversas fontes",
-      "Um componente para criar gráficos",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a função do 'Power Pivot' no Power BI?",
-    resposta: [
-      "Importar dados externos",
-      "Criar relatórios visuais",
-      "Realizar análises avançadas e criar modelos de dados",
+      "Kirk Franklin",
+      "CeCe Winans",
+      "Mahalia Jackson",
     ],
     correta: 2
   },
   {
-    pergunta: "O que são os 'Dashboards' no Power BI?",
+    pergunta: "Qual música de Whitney Houston é considerada uma poderosa canção gospel?",
     resposta: [
-      "Relatórios detalhados",
-      "Painéis interativos que mostram visualizações importantes",
-      "Ferramentas de administração",
+      "'I Will Always Love You'",
+      "'Greatest Love of All'",
+      "'My Love Is Your Love'",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual linguagem é usada para escrever fórmulas no Power BI?",
+    pergunta: "Quem é conhecido por hits como 'Stomp' e 'Revolution'?",
     resposta: [
-      "DAX (Data Analysis Expressions)",
-      "SQL (Structured Query Language)",
-      "JavaScript",
+      "Fred Hammond",
+      "Donnie McClurkin",
+      "Kirk Franklin",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual grupo gospel internacional é famoso pela música 'Oceans (Where Feet May Fail)'?",
+    resposta: [
+      "Hillsong United",
+      "Casting Crowns",
+      "Chris Tomlin",
     ],
     correta: 0
   },
   {
-    pergunta: "O que é o 'Power BI Service'?",
+    pergunta: "Qual artista lançou o álbum 'Hiding Place' em 2018, vencedor do Grammy de Melhor Álbum Gospel?",
     resposta: [
-      "Uma função específica no Power BI",
-      "Uma versão gratuita do Power BI",
-      "Uma plataforma online para publicar, compartilhar e colaborar em relatórios",
+      "Tasha Cobbs Leonard",
+      "Lauren Daigle",
+      "Tamela Mann",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual cantor gospel internacional é conhecido por canções como 'I Smile' e 'Melodies From Heaven'?",
+    resposta: [
+      "Kirk Franklin",
+      "Don Moen",
+      "Fred Hammond",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual grupo gospel internacional é famoso por músicas como 'Shackles (Praise You)' e 'Yesterday'?",
+    resposta: [
+      "The Clark Sisters",
+      "Mary Mary",
+      "Destiny's Child",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem é conhecido por músicas como 'How Great is Our God' e 'Amazing Grace (My Chains Are Gone)'?",
+    resposta: [
+      "Chris Tomlin",
+      "Hillsong Worship",
+      "Matt Redman",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual artista gospel internacional é famoso por músicas como 'Break Every Chain' e 'Your Spirit'?",
+    resposta: [
+      "Tasha Cobbs Leonard",
+      "William McDowell",
+      "Israel Houghton",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual cantora gospel lançou álbuns como 'Alabaster Box' e 'A Piece of My Passion'?",
+    resposta: [
+      "CeCe Winans",
+      "Yolanda Adams",
+      "Kim Burrell",
     ],
     correta: 2
-  },
-  {
-    pergunta: "O que é o 'Power BI Desktop'?",
-    resposta: [
-      "Uma versão exclusiva para Mac",
-      "Uma ferramenta para criar relatórios e dashboards localmente",
-      "Um componente opcional do Power BI",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é o formato de arquivo padrão para os relatórios do Power BI?",
-    resposta: [
-      ".pptx",
-      ".pbix",
-      ".xlsx",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que significa 'ETL' no contexto do Power BI?",
-    resposta: [
-      "Extração, Transformação e Linguagem",
-      "Excel, Tableau, Linguagem",
-      "Extração, Transformação e Carregamento",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Qual visualização é comumente usada para representar dados geográficos no Power BI?",
-    resposta: [
-      "Gráfico de barras",
-      "Mapa",
-      "Rosca de pizza",
-    ],
-    correta: 1
   },
 ];
+
 
   
   const quiz = document.querySelector('#quiz')
