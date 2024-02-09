@@ -9,7 +9,7 @@ const perguntas = [
     correta: 2
   },
   {
-    pergunta: "O que é um "enfermeiro-chefe" em uma enfermaria?",
+    pergunta: "O que é um Enfermeiro-Chefe em uma enfermaria?",
     resposta: [
       "Um enfermeiro especializado em cirurgias",
       "O enfermeiro responsável pela gestão e supervisão da equipe de enfermagem",
@@ -18,7 +18,7 @@ const perguntas = [
     correta: 1
   },
   {
-    pergunta: "O que é um "prontuário médico" em uma enfermaria?",
+    pergunta: "O que é um Prontuário Médico em uma enfermaria?",
     resposta: [
       "Um registro das condições climáticas no hospital",
       "Um documento que contém informações médicas e de tratamento de um paciente",
@@ -36,7 +36,7 @@ const perguntas = [
     correta: 1
   },
   {
-    pergunta: "O que é a "visita médica" em uma enfermaria?",
+    pergunta: "O que é a Visita Médica em uma enfermaria?",
     resposta: [
       "Uma inspeção do hospital",
       "Uma reunião de enfermeiros",
@@ -45,7 +45,7 @@ const perguntas = [
     correta: 2
   },
   {
-    pergunta: "O que é um "tratamento ambulatorial" em relação a uma enfermaria?",
+    pergunta: "O que é um Tratamento Ambulatorial em relação a uma enfermaria?",
     resposta: [
       "Um tratamento realizado fora do hospital",
       "Um tratamento intensivo",
@@ -54,7 +54,7 @@ const perguntas = [
     correta: 0
   },
   {
-    pergunta: "Qual é a função principal de um "técnico de enfermagem" em uma enfermaria?",
+    pergunta: "Qual é a função principal de um Técnico de Enfermagem em uma enfermaria?",
     resposta: [
       "Diagnosticar doenças",
       "Realizar procedimentos cirúrgicos",
@@ -63,7 +63,7 @@ const perguntas = [
     correta: 2
   },
   {
-    pergunta: "O que é a "triagem" em uma enfermaria?",
+    pergunta: "O que é a Triagem em uma enfermaria?",
     resposta: [
       "A seleção de pacientes para cirurgias",
       "A avaliação inicial da gravidade dos casos",
@@ -72,7 +72,7 @@ const perguntas = [
     correta: 1
   },
   {
-    pergunta: "Qual é a importância da "higienização das mãos" em uma enfermaria?",
+    pergunta: "Qual é a importância da Higienização das Mãos em uma enfermaria?",
     resposta: [
       "Apenas um procedimento rotineiro",
       "Essencial para prevenir a propagação de infecções",
@@ -81,7 +81,7 @@ const perguntas = [
     correta: 1
   },
   {
-    pergunta: "O que é a "alta hospitalar" em uma enfermaria?",
+    pergunta: "O que é a Alta Hospitalar em uma enfermaria?",
     resposta: [
       "Um procedimento cirúrgico",
       "A transferência de um paciente para outra enfermaria",
@@ -91,9 +91,6 @@ const perguntas = [
   },
 ];
 
-
-
-  
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   const corretas = new Set()
